@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">
+        <p>Anzahl Spieler</p>
+        <input type="number" id="numPlayers" value="100">
+        <p>Maximale Anzahl Kills</p>
+        <input type="number" id="killRange" value="3">
+        <p>Anzahl Runden</p>
+        <input type="number" id="numGames" value="10">
+        <button onclick="init()">Start</button>
+    </div>
+    <div id="logs">
+
+    </div>
+    <button onclick="scrollResults()" id="floater">down</button>
+    <script src="vie.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
